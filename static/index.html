@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Win Rate</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="static/botones.js" defer></script>
+    <style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: auto;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 4px;
+            text-align: center;
+        }
+        .selected {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Jugada Blancas</th>
+                <th>Jugada Negras</th>
+            </tr>
+        </thead>
+        <tbody id="jugadas-table">
+            <!-- Las jugadas se llenarán aquí dinámicamente -->
+        </tbody>
+    </table>
+    <button id="mostrar-winrate">Mostrar Win Rate</button>
+    <div id="grafico"></div>
+
+    <div>
+        <label for="elo-select">Selecciona un intervalo de ELO:</label>
+        <select id="elo-select">
+            <option value="menos-de-mil">Menos de 1000</option>
+            <option value="mil-a-dosmil">1000 a 2000</option>
+            <option value="mas-de-dosmil">Más de 2000</option>
+        </select>
+        <button id="mostrar-incremento">Mostrar Incremento</button>
+    </div>
+    <div id="grafico-incremento"></div>
+
+    <button id="mostrar-cantidad-jugadores">Visualizar Cantidad de Jugadores</button>
+    <div id="grafico-cantidad-jugadores"></div>
+</body>
+</html>
