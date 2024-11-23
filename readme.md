@@ -55,9 +55,6 @@ Este proyecto es un dashboard de análisis de partidas de ajedrez que permite vi
    ```bash
    python app.py
    ```
-
-6. Abre tu navegador en [http://127.0.0.1:5000/](http://127.0.0.1:5000/) para ver el dashboard.
-
 ---
 
 ## 📂 **Estructura del Proyecto**
@@ -146,8 +143,11 @@ chess-analysis-dashboard/
 
 ---
 
-## 💡 **Contribución**
-- Si deseas contribuir, abre un issue o envía un pull request con tus mejoras.
+## 💡 **Integrantes**
+- Mauricio Perez
+- Joshua Leon
+- Francisco Henriquez
+- Franco Ugarte
 
 ---
 
